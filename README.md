@@ -36,7 +36,15 @@ contribution.
 
 ## Installation
 
-You will need some dependencies:
+You should have already [installed Go](https://golang.org/doc/install), and you
+can check out the source code into your `$GOPATH` like this:
+
+```
+cd $GOPATH
+git clone https://github.com/mapzen/neatlacoche.git src/github.com/mapzen/neatlacoche
+```
+
+You will also need some dependencies:
 
 ```
 go get github.com/gogo/protobuf/proto
@@ -46,7 +54,7 @@ go get github.com/syndtr/goleveldb/leveldb
 go get github.com/paulmach/go.geo
 ```
 
-But then you should be able to:
+Then you should be able to:
 
 ```
 go install github.com/mapzen/neatlacoche
